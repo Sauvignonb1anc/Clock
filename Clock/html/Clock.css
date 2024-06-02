@@ -1,0 +1,96 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+.background {
+    width: 100%;
+    height: 200vw;
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+}
+
+.clockface {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+
+    display: flex;
+}
+
+.clockface img {
+    width: 100%;
+    height: 40%;
+}
+
+.cap {
+    position: absolute;
+    z-index: 5;
+    width: 4%;
+    height: 4%;
+    margin-top: 45%;
+    margin-left: 5%;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.hour {
+    position: absolute;
+    z-index: 2;
+    margin-top: 24%;
+    margin-left: 5%;
+
+    display: flex;
+    justify-content: center;
+}
+
+.hour img {
+    width: 4vw;
+    height: 50vw;
+}
+
+.minute {
+    position: absolute;
+    margin-top: 13%;
+    margin-left: 5%;
+    z-index: 3;
+
+    display: flex;
+    justify-content: center;
+}
+
+.minute img {
+    width: 2vw;
+    height: 70vw;
+}
+
+.second {
+    position: absolute;
+    margin-top: 8%;
+    margin-left: 5%;
+    z-index: 4;
+
+    display: flex;
+    justify-content: center;
+}
+
+.second img {
+    width: 1vw;
+    height: 80vw;
+}
+
+#clock {
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+
+    font-size: 10vw;
+    color: white;
+    position: absolute;
+    left: 5vw;
+    bottom: 2vw;
+}
